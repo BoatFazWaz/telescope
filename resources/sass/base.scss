@@ -351,3 +351,11 @@ button:hover {
     opacity: 0.7;
     z-index: 10;
 }
+
+.duplicate-queries {
+    background-color: $duplicates-bg;
+
+    &:hover {
+        background-color: $duplicates-hover-bg !important;
+    }
+}
